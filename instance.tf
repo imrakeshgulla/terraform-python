@@ -5,7 +5,7 @@ resource "aws_instance" "vinay-1" {
   vpc_security_group_ids = [aws_security_group.vinaysg.id]
   subnet_id     = aws_subnet.vinaypsubnet1.id
   associate_public_ip_address = true
-  user_data     = file("wp-data.sh")
+  user_data     = file("python-data.sh")
 
   tags = {
     Name = "tf python"
