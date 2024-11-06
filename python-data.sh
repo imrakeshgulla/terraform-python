@@ -7,10 +7,10 @@ sudo yum install -y python3 git
 sudo yum install -y python3-pip
 
 # Clone the application from your GitHub repository
-git clone https://github.com/vinay18-2/Agri.git /home/ec2-user/Agri
+git clone https://github.com/vinay18-2/Agri3.git
 
 # Navigate to the application directory
-cd /home/ec2-user/Agri
+cd /home/ec2-user/Agri3
 
 # Install application dependencies from requirements.txt
 sudo pip3 install -r requirements.txt
