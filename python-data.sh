@@ -8,7 +8,7 @@ sudo yum install -y python3-pip
 
 # Clone the application from your GitHub repository
 git clone https://github.com/vinay18-2/Agri3.git
-sudo mv Agri/ /home/ec2-user/
+sudo mv Agri3/ /home/ec2-user/
 # Navigate to the application directory
 cd /home/ec2-user/Agri3
 
