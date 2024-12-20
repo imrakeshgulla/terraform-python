@@ -8,6 +8,6 @@ resource "aws_instance" "vinay-1" {
   user_data     = file("python-data.sh")
 
   tags = {
-    Name = "tf python"
+    Name = "tf rksh"
   }
 }
